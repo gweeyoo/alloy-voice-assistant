@@ -17,7 +17,7 @@ from speech_recognition import Microphone, Recognizer, UnknownValueError
 
 load_dotenv()
 
-
+# Class
 class WebcamStream:
     def __init__(self):
         self.stream = VideoCapture(index=0)
